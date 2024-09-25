@@ -1,10 +1,11 @@
- class carta {
+ export default class carta extends HTMLElement{
+ 
+ constructor(){
 
-    constructor(){
+  super()
 
-  
   console.log ("Carta pokemon");
     }
-
-
 }
+
+customElements.define("pokemom", carta);
